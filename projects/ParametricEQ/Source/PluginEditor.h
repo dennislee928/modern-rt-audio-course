@@ -16,6 +16,7 @@ public:
     static const int ParamHeight { 80 };
     static const int ParamsPerBand { 5 };
     static const int NumOfBands { 3 };
+    static const int Expand_NumOfBands { 6 };
 
 private:
     ParametricEQAudioProcessor& audioProcessor;
