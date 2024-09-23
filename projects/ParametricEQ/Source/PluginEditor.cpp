@@ -14,7 +14,8 @@ ParametricEQAudioProcessorEditor::ParametricEQAudioProcessorEditor(ParametricEQA
     addAndMakeVisible(band1ParameterEditor);
     addAndMakeVisible(band2ParameterEditor);
 
-    setSize(NumOfBands * BandWidth, ParamsPerBand * ParamHeight);
+  //  setSize(NumOfBands * BandWidth, ParamsPerBand * ParamHeight);
+  setSize(Expand_NumOfBands * BandWidth, ParamsPerBand * ParamHeight);
 }
 
 ParametricEQAudioProcessorEditor::~ParametricEQAudioProcessorEditor()
